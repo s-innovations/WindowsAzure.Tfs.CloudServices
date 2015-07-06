@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="Activities\CloudServiceBuildSizes.cs" />
     <Compile Include="Activities\MakeFileWriteableActivity.cs" />
+    <Compile Include="Activities\UpdateLocalResourceActivity.cs" />
     <Compile Include="Activities\UpdateRoleSizeActivity.cs" />
     <Compile Include="Activities\UploadFilesToAzureBlobStorageActivity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

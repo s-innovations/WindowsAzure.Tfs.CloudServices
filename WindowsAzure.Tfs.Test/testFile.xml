@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceDefinition name="Ascend.Host.ServiceBus.Package" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2015-04.2.6">
+  <WorkerRole name="Ascend.Host.ServiceBus.WorkerRole" vmsize="ExtraSmall">
+    <Certificates>
+      <Certificate name="CN=ascend-xyz-settings-certificate" storeLocation="LocalMachine" storeName="My" />
+    </Certificates>
+    <LocalResources>
+      <LocalStorage name="AscendLocalStorage" cleanOnRoleRecycle="true" sizeInMB="1024" />
+    </LocalResources>
+  </WorkerRole>
+</ServiceDefinition>
